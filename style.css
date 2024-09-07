@@ -1034,9 +1034,9 @@ ul li {
 .weoffersection {
   display: block;
   background-image: url(./Pics/WeOfferBackground.png);
-    background-size:  calc(31.3vw + 0px) auto;
-    background-position: calc(48.4vw - 2px) calc(1.9vw + 1px);
-    background-repeat: no-repeat;
+  background-size: calc(31.3vw + 0px) auto;
+  background-position: calc(48.4vw - 2px) calc(1.9vw + 1px);
+  background-repeat: no-repeat;
 }
 
 .WeOffer {
@@ -1049,7 +1049,6 @@ ul li {
   flex-direction: row;
   margin-left: calc(12.5vw + 0px);
   gap: calc(5.3vw + 1px);
-
 }
 
 .WeOfferLogo {
@@ -1064,15 +1063,15 @@ ul li {
 }
 
 .picanddesc {
-display: flex;
-flex-direction: row;
-width: calc(36.6vw - 2px);
-gap: calc(1.9vw + 0px);
+  display: flex;
+  flex-direction: row;
+  width: calc(36.6vw - 2px);
+  gap: calc(1.9vw + 0px);
 }
 
 .individual {
   display: flex;
-  flex-direction: column; 
+  flex-direction: column;
 }
 
 .individual ul {
@@ -1084,7 +1083,6 @@ gap: calc(1.9vw + 0px);
 .individual ul li {
   margin-left: calc(-0.6vw + 2px);
 }
-
 
 @media (max-width: 750px) {
   * {
@@ -1117,7 +1115,7 @@ gap: calc(1.9vw + 0px);
 
   .picanddesc {
     width: calc(93.7vw + 0.093px);
-    }
+  }
 
   .picanddesc p {
     width: calc(78.1vw - 0.047px);
@@ -1129,9 +1127,9 @@ gap: calc(1.9vw + 0px);
   }
 
   .individual ul {
-    font-size: calc(4.9vw + 0.372px);    
+    font-size: calc(4.9vw + 0.372px);
   }
-  
+
   .individual ul li {
     margin-left: calc(-2.8vw - 0.07px);
   }
@@ -1554,10 +1552,14 @@ gap: calc(1.9vw + 0px);
 
   .TermsHeader2 {
     margin-left: calc(3vw + 0.326px);
+    font-size: calc(6.3vw - 0.093px);
+    font-weight: 600;
   }
   .TermsHeader3 {
     margin-left: calc(-1.6vw + 0.209px);
     width: calc(93.7vw + 0.093px);
+    font-size: calc(5.6vw + 0.14px);
+    font-weight: 400;
   }
 
   .termsInner1 {
