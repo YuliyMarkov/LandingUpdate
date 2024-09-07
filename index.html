@@ -79,7 +79,7 @@
           <button class="pay">Оплатить</button>
           <button class="video">
             <span class="rooms">Видео</span><span class="book">наблюдение</span>
-            <span class="book3">наблюде ние</span>
+            <div class="book3"><span>наблюде</span><span>ние</span></div>
           </button>
           <img src="./Pics/Group.png" class="group" alt="" />
         </div>
@@ -225,8 +225,8 @@
             </ul>
         </div>
       </div>
-      <div class="slider6mpbile" id="slide-counter">1 / 3</div>
-      <div class="splide splide6" role="group" aria-label="Splide Basic HTML Example">
+      <div id="slide-counter">1 / 3</div> 
+      <div class="splide splide6" id="slide-counter3" role="group" aria-label="Splide Basic HTML Example">
         <div class="splide__track">
           <ul class="splide__list">
             <li class="splide__slide">
@@ -306,26 +306,99 @@
         <div class="applicationFormFlex">
           <div class="applicationFormagain">
             <input type="text" class="userName2" placeholder="Имя" />
-            <input type="tel" class="tel" placeholder="Телефон" oninput="this.value = this.value.replace(/[^0-9]/g, '');" required />
+            <input type="tel" class="userName2" placeholder="Телефон" oninput="this.value = this.value.replace(/[^0-9]/g, '');" required />
             <input type="text" class="userName2" placeholder="Кличка животного" />
           </div>
           <div class="applicationFormagain2">
-            <input type="date" class="tel2" placeholder="Дата заезда" required />
-            <input type="date" class="userName2" placeholder="Дата выезда" required />
+            <input type="text" class="tel2" placeholder="Дата заезда" onfocus="(this.type='date')" onblur="if(!this.value){this.type='text';}" required />
+            <input type="text" class="userName2" placeholder="Дата выезда" onfocus="(this.type='date')" onblur="if(!this.value){this.type='text';}" required />
             <input type="text" class="tel2" placeholder="Тип номера" />
             <input type="text" class="Note" placeholder="Примечание" />
             <button class="bookroom3">Забронировать</button>
-          </div>
+        </div>
         </div>  
+    </section>
+    <section class="AbtUsClass">
+      <div class="abtUs">
+        <div>
+        <h2 class="allaboutusHeader2">Все о нас</h2></div>        
+        <div><p class="allaboutP">Ценность нашей гостиницы в том, что вы можете полностью доверить нам заботу и уход за вашим котиком!</p></div>
+      </div>
+      <div class="abtUs">
+        <div>
+        <h3 class="TermsHeader4"  >Где и с кем оставить своего котика на время отпуска?</h3></div>
+        <div class="abtUs2">
+        <div><p class="allaboutP2">Многие из нас, планируя отпуск, или при необходимости уехать в командировку, или в период приезда гостей с аллергией и по другим причинам, сталкиваются с данным вопросом.</p></div>
+        <div><p class="allaboutP2">В маленьких городах этот вопрос решается благодаря помощи родственников и соседей, которые возьмут котика к себе или станут регулярно его навещать, чтобы покормить и уделить внимание.</p></div>
+        <div><p class="allaboutP2">В большом городе данная задача решается сложнее, т.к. из-за неблизких расстояний возникают неудобства ежедневно навещать Вашего котика. Данная ситуация негативно сказывается на режиме кормления и длительное отсутствие внимания является стрессом для животного.</p></div>
+      </div>
+      </div>      
+    </section>
+    <section class="weoffersection">
+      <h2 class="TermsHeader5">Мы предлагаем</h2>
+      <div class="WeOffer">
+        <div class="WeOfferColumn" id="WeOfferDohua">
+          <div class="picanddesc">
+            <img src="./Pics/fluent_animal-cat-20-regular.png" class="WeOfferLogo" alt="">
+            <p>гостиница оснащена приточно-вытяжной вентиляцией, с регулировкой температуры в летний и зимний период</p>
+          </div>
+          <div class="picanddesc">
+            <img src="./Pics/fluent_animal-cat-20-regular.png" class="WeOfferLogo" alt="">
+            <p>подготовка номера к заселению нового постояльца (обработка поверхностей дезинфицирующими средствами, кварцевание)</p>
+          </div>
+        </div>
+        <div class="WeOfferColumn">
+          <div class="picanddesc">
+            <img src="./Pics/fluent_animal-cat-20-regular.png" class="WeOfferLogo" alt="">
+            <p>соблюдение санитарно-гигиенических норм</p>
+          </div>
+          <div class="picanddesc">
+            <img src="./Pics/fluent_animal-cat-20-regular.png" class="WeOfferLogo" alt="">
+            <p>видеонаблюдение в режиме 24/7</p>
+          </div>
+        </div>
+        <div class="WeOfferColumn">
+          <div class="picanddesc">
+            <img src="./Pics/fluent_animal-cat-20-regular.png" class="WeOfferLogo" alt="">
+            <p>круглосуточное присутствие котоняни</p>
+          </div>
+          <div class="picanddesc">
+            <img src="./Pics/fluent_animal-cat-20-regular.png" class="WeOfferLogo" alt="">
+            <p>наличие холодильника для хранения влажного корма</p>
+          </div>
+        </div>
+        <div class="WeOfferColumn">
+          <div class="picanddesc">
+            <img src="./Pics/fluent_animal-cat-20-regular.png" class="WeOfferLogo" alt="">
+            <p>кормление и уход (индивидуальный подход к каждому котику)</p>
+          </div>
+          <div class="picanddesc">
+            <img src="./Pics/fluent_animal-cat-20-regular.png" class="WeOfferLogo" alt="">
+            <p>ежедневный фото/видеоотчет на мессенджеры</p>
+          </div>
+        </div>
+        <div class="WeOfferColumn">
+          <div class="picanddesc">
+            <img src="./Pics/fluent_animal-cat-20-regular.png" class="WeOfferLogo" alt="">
+            <div class="individual"><p>индивидуальные номера</p>
+              <ul>
+                <li>10 номеров более 2 кв. м с окном</li>
+                <li>6 номеров более 2 кв. м без окна</li>
+                <li>1 номер более 3 кв. м с окнами</li>
+              </ul>  
+           </div>            
+          </div>
+        </div>
+      </div>
     </section>
     <section class="section11">
       <div class="ImportantInfo">
-        <div class="Importantdiv">
+        <div>
           <img src="./Pics/Important2.png" class="Important2" alt="">
         </div>
         <div>
           <h2 class="ImportantH2">ВАЖНО!</h2>
-          <p class="ImportantP">
+          <p class="ImportantParagraph">
             При необходимости медицинского наблюдения за больным котиком или после операции, для его безопасности, рекомендуем выбирать гостиницу при ветеринарной клинике, т.к. гостиница для кошек не является медицинским учреждением, а предоставляет услуги по временному содержанию животных.
           </p>
         </div>
@@ -333,6 +406,42 @@
           <img src="./Pics/Important3.png" class="Important3" alt="">
         </div>
       </div>
+    </section>
+    <section class="Fears">
+      <H2 class="CatownersFearsH2">Страхи котовладельца</H2>
+      <div class="presstowatch"><span >Нажмите, чтобы посмотреть</span></div> 
+      <div class="acor-container">          
+    
+        <input type="checkbox" name="chacor" id="chacor1" checked="checked" />
+        <label for="chacor1">Вдруг моя кошка почувствует себя плохо, а я на другом конце света и не могу ничего предпринять?</label>
+        <div class="acor-body">
+            <p>При малейшем отклонении от нормы поведения или состояния кошки, мы незамедлительно сообщим Вам. С Вашего согласия мы обратимся в ветеринарную клинику и сообщим о результатах осмотра и принятых ветеринаром решений (при необходимости Вы сможете лично переговорить с врачом).</p>
+            <p>Если кошечке понадобится лечение, мы осуществим все необходимые действия. При выезде мы предоставим все документы и чеки на оплату услуг ветклиники.</p>
+        </div>
+        
+        <input type="checkbox" name="chacor" id="chacor2" />
+        <label for="chacor2">Мою кошку посадят в номер и забудут о ней!</label>
+        <div class="acor-body">
+            <p>Миссия зоогостиницы - забота и уход за Вашей кошечкой!</p>
+            <p>Мы несем ответственность за Вашего котика не только моральную, но и юридическую. При заселении котика заключается договор на оказание услуг по уходу и содержанию животного.</p>
+            <p>Также Вам ежедневно направляется фото/видеоотчет о досуге Вашего котика. В любой момент Вы можете проконтролировать котика при помощи видеонаблюдения 24/7.</p>
+        </div>
+        
+        <input type="checkbox" name="chacor" id="chacor3" />
+        <label for="chacor3">Мой котик боится замкнутых пространств!</label>
+        <div class="acor-body">
+            <p>В этом случае, скорее всего была ситуация, при которой у котика выработалось негативное закрепление (случайно надолго закрыли в шкафу или закрыли в кладовке с целью наказания). Необходимо проработать положительное закрепление! (посидеть с ним вместе в этом замкнутом пространстве, обязательно покормить и окружить любовью, через несколько повторений котик поймет, что кладовка - это не страшно).</p>
+        </div>
+
+        <input type="checkbox" name="chacor" id="chacor4" />
+        <label for="chacor4">Боюсь реакции на присутствие незнакомых котику людей!</label>
+        <div class="acor-body">
+            <p>Кошки живут в мире запахов!</p>
+            <p>Им необходимо дать время адаптироваться к новым условиям, постепенно приучать к присутствию нового человека (покормить, напоить, поднести руку к мордочке) и только после того, как котик пойдет на контакт - погладить!</p>
+            <p>Если кошечка слишком впечатлительная и плохо переносит изменения - за пару дней до визита в зоогостиницу используйте успокаивающие капли (согласно инструкции), они безопасны для животного!</p>
+        </div>
+     
+    </div>
     </section>
     <script src="./script.js"></script>
     <footer>
